@@ -8,3 +8,7 @@ It also features user registration and login functionality, storing user informa
 - Display maps with multiple layers using GovMap API.
 - User registration and login with data stored in SQLite.
 - User-friendly interface with navigation between different activities.
+
+## Live Demo
+
+Watch the live demo [here](./docs/GV-login.mp4).
