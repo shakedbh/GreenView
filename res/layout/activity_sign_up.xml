@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#123904">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/backButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="350dp"
+                    android:background="#123904"
+                    android:contentDescription="Back"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:srcCompat="@android:drawable/ic_menu_revert"
+                    tools:ignore="HardcodedText,MissingConstraints" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/gv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:fontFamily="casual"
+                android:text="GV"
+                android:textAlignment="center"
+                android:textColor="#9F21A11C"
+                android:textSize="100sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/new_account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Create New Account"
+                android:textAlignment="center"
+                android:textColor="#7ADF76"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/id_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/grey_edt_background"
+                android:ems="10"
+                android:hint="Enter your ID"
+                android:inputType="textPersonName"
+                android:padding="8dp"
+                android:textColor="#050C01"
+                android:textColorHint="#043314"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText,TextFields" />
+
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/grey_edt_background"
+                android:ems="10"
+                android:hint="Enter your name"
+                android:inputType="textPersonName"
+                android:padding="8dp"
+                android:textColor="#050C01"
+                android:textColorHint="#043314"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText,TextFields" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/grey_edt_background"
+                android:ems="10"
+                android:hint="Enter your email"
+                android:inputType="textPersonName"
+                android:padding="8dp"
+                android:textColor="#050C01"
+                android:textColorHint="#043314"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText,TextFields" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/grey_edt_background"
+                android:ems="10"
+                android:hint="Enter your password"
+                android:inputType="textPersonName"
+                android:isScrollContainer="false"
+                android:keepScreenOn="false"
+                android:padding="8dp"
+                android:password="true"
+                android:textColor="#050C01"
+                android:textColorHint="#043314"
+                android:textSize="15sp"
+                tools:ignore="Deprecated,HardcodedText,TextFields" />
+
+            <EditText
+                android:id="@+id/city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/grey_edt_background"
+                android:ems="10"
+                android:hint="Enter your city"
+                android:inputType="textPersonName"
+                android:padding="8dp"
+                android:textColor="#050C01"
+                android:textColorHint="#043314"
+                android:textSize="15sp"
+                tools:ignore="Deprecated,HardcodedText,TextFields" />
+
+            <TextView
+                android:id="@+id/farmland"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/grey_edt_background"
+                android:ems="10"
+                android:hint="Do you own farmland?"
+                android:padding="8dp"
+                android:textColor="#050C01"
+                android:textColorHint="#043314"
+                android:textSize="15sp"
+                tools:ignore="Deprecated,HardcodedText,TextFields" />
+
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="32dp" >
+            <RadioButton
+                android:id="@+id/radioButtonYes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                tools:ignore="HardcodedText" />
+
+            <RadioButton
+                android:id="@+id/radioButtonNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No, I want"
+                tools:ignore="HardcodedText" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/signup_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="33dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="32dp"
+                android:background="#5A8554"
+                android:onClick="registerUser"
+                android:text="Sign up"
+                android:textColor="#D8E6D8"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
