@@ -11,4 +11,4 @@ It also features user registration and login functionality, storing user informa
 
 ## Live Demo
 
-![demo](docs/GV-login (2).gif)
+![demo](docs/GV-login.gif)
