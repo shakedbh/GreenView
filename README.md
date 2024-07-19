@@ -11,4 +11,4 @@ It also features user registration and login functionality, storing user informa
 
 ## Live Demo
 
-![demo](/docs/architecture.drawio.png)
+![demo](GV-login.gif)
