@@ -11,4 +11,4 @@ It also features user registration and login functionality, storing user informa
 
 ## Live Demo
 
-Watch the live demo [here](./docs/GV-login_out.mp4).
+Watch the live demo ![demo](/docs/GV-login_out.mp4)
