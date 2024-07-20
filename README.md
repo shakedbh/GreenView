@@ -12,3 +12,5 @@ It also features user registration and login functionality, storing user informa
 ## Live Demo
 
 ![demo](docs/GV-login.gif)
+
+You can see it on YouTube: https://youtu.be/AIg7IW41HYw
